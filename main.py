@@ -31,6 +31,3 @@ for doc in docs:
     images = convert_from_path('./docs/'+doc)
     for i in range(len(images)):
         images[i].save('./converted/'+doc[:-4]+'/'+str(i+1)+'.png', 'PNG')
-
-
-
